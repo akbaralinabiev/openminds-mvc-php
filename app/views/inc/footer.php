@@ -1,5 +1,5 @@
 
-<footer class=" bg-light">
+<footer class="fixed-bottom bg-light">
   <div class="text-center py-3">
     © 2023 OpenMinds Copyright:
     <a class="text-reset fw-bold" href="https://akbaralinabiev.com/">akbaralinabiev.com</a>

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/style.css">
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
-    <a class=" logo" href="#"><?php echo SITENAME; ?></a>
+    <a class=" logo" href=""><?php echo SITENAME; ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,9 +26,14 @@
 
 <style>
   .logo{
+    text-decoration: none;
     font-weight: 500;
     text-decoration: none;
     color: white;
     font-size: 20px;
+  }
+  .logo:hover{
+    text-decoration: none;
+    color: white;
   }
 </style>
