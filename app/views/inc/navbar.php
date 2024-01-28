@@ -36,8 +36,4 @@
     text-decoration: none;
     color: white;
   }
-
-  .navbar{
-    /* position: fixed; */
-  }
 </style>

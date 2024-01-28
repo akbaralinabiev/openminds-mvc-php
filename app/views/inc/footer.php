@@ -10,9 +10,6 @@
 
 
 <style>
-    .text-center{
-        margin-bottom: 100px;
-    }
     footer{
         width: 100%;
         height: 60px;

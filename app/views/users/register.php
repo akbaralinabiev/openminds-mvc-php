@@ -38,7 +38,7 @@
       </span>
 
       <label class="one-label" for="confirm_password">Confirm Password*</label>
-      <input type="password" name="confirm_password" 
+      <input type="password" name="confirm_password"
         class="form-control psw <?php echo (!empty($data['confirm_password_err'])) ? 'is-invalid' : ''; ?>"
         value="<?php echo $data['confirm_password']; ?>">
       <span class="invalid-feedback">
@@ -46,10 +46,10 @@
       </span>
       <div class="privacy-div">
         <input type="checkbox" name="checbox" id="checkbox">
-        <p>I agree to the <a href="">Terms</a> and <a href="">Conditions</a> and the <a href="">Privacy Policy</a></p>
+        <p>I agree to the <a href="#0">Terms</a> and <a href="#0">Conditions</a> and the <a href="#0">Privacy Policy</a></p>
       </div>
 
-      <input type="submit" class="btn" value="Register">
+      <input type="submit" class="btn" value="Create Account">
 
       <a href="<?php echo URLROOT; ?>/users/login" class="btn" id="register-btn">Already have an account? Login</a>
     </div>
@@ -62,6 +62,7 @@
 
 
 <style>
+
   .privacy-div {
     display: flex;
     flex-direction: row;
