@@ -7,7 +7,7 @@
     // Let's first load the Homepage
     public function index(){
       // If user logged in, redirect to posts
-      if(isset($_SESSION['user_id'])){
+      if(isset($_SESSION['user_id'])){ 
         redirect('posts');
       }
 

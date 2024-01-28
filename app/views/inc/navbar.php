@@ -27,13 +27,17 @@
 <style>
   .logo{
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 19px;
   }
   .logo:hover{
     text-decoration: none;
     color: white;
+  }
+
+  .navbar{
+    /* position: fixed; */
   }
 </style>

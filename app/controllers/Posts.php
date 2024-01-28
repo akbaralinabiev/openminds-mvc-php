@@ -50,10 +50,10 @@
 
          // Validate email
          if(empty($data['title'])){
-          $data['title_err'] = 'Please enter name';
+          $data['title_err'] = 'Please enter a title for your article';
           // Validate name
           if(empty($data['body'])){
-            $data['body_err'] = 'Please enter the post body';
+            $data['body_err'] = 'Please enter the post description';
           }
         }
 

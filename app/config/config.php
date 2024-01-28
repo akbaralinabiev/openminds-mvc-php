@@ -10,4 +10,4 @@
   // URL Root
   define('URLROOT', 'http://localhost/openmindsmvc');
   // Website Name
-  define('SITENAME', 'OpenMinds');
+  define('SITENAME', 'OpenMinds'); 
