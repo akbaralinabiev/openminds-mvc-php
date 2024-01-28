@@ -122,15 +122,15 @@
           $data['name_err'] = 'Please enter name.';
         }
 
-        // Check for user
-        if($this->userModel->findUserByEmail($data['email'])){
-          // User Found
-        } else {
-          // No User
-          $data['email_err'] = 'This email is not registered.';
-        }
+      if ($this->userModel->findUserByEmail($data['email'])) {
+        // User Found
+      } else {
+        // No User
+        $data['email_err'] = 'This email is not registered.';
+      }
 
-        // Make sure errors are empty
+
+      // Make sure errors are empty
         if(empty($data['email_err']) && empty($data['password_err'])){
 
           $loggedInUser = $this->userModel->login($data['email'], $data['password']);

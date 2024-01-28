@@ -1,8 +1,8 @@
 
 <footer class="fixed-bottom bg-light">
   <div class="text-center py-3">
-    © 2023 OpenMinds Copyright:
-    <a class="text-reset fw-bold" href="https://akbaralinabiev.com/">akbaralinabiev.com</a>
+    © 2024 OpenMinds Copyright:
+    <a class="text-reset fw-bold" href="https://akbaralinabiev.vercel.app/">akbaralinabiev.com</a>
     All rights reserved
   </div>
 </footer>

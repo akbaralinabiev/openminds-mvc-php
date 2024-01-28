@@ -38,7 +38,7 @@
       </span>
 
       <label class="one-label" for="confirm_password">Confirm Password*</label>
-      <input type="password" name="confirm_password"
+      <input type="password" name="confirm_password" 
         class="form-control psw <?php echo (!empty($data['confirm_password_err'])) ? 'is-invalid' : ''; ?>"
         value="<?php echo $data['confirm_password']; ?>">
       <span class="invalid-feedback">
