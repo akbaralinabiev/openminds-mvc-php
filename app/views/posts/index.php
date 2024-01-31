@@ -15,7 +15,7 @@
       <a class="btn more-button pull-center" href="<?php echo URLROOT; ?>/posts/show/<?php echo $post->postId; ?>">More</a>
     </div>
   <?php endforeach; ?>
-<?php require APPROOT . '/views/inc/footer.php'; ?>
+<?php require_once APPROOT . '/views/inc/footer.php'; ?>
 
 
 <style>

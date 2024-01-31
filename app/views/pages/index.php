@@ -1,4 +1,4 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<?php require_once APPROOT . '/views/inc/header.php'; ?>
   <div class="content">
     <div>
       <h1 class="display-6 text-center"><?php echo $data['title']; ?></h1>

@@ -25,6 +25,11 @@
 </nav>
 
 <style>
+  .navbar{
+
+    background-color: #465776;
+  }
+
   .logo{
     text-decoration: none;
     font-weight: 400;

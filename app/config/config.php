@@ -1,9 +1,10 @@
 <?php
   // My Database Parameters
-  define("DB_HOST", "localhost");
-  define("DB_USER", "root");
-  define("DB_PASS", "akbaraliaeh14");
+  define("DB_HOST", "127.0.0.1");
+  define("DB_USER", "ali");
+  define("DB_PASS", "1234567");
   define("DB_NAME", "openminds");
+  define("DB_PORT", "3309");
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));

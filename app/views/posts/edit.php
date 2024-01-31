@@ -1,4 +1,4 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<?php require_once APPROOT . '/views/inc/header.php'; ?>
 <a href="<?php echo URLROOT; ?>" class="btn btn-light"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
       <div class="card card-body bg-light mt-5">
         <h2>Edit your Thoughts</h2>
@@ -17,4 +17,4 @@
           <input type="submit" class="btn btn-success" value="Submit">
         </form>
       </div>
-<?php require APPROOT . '/views/inc/footer.php'; ?>
+<?php require_once APPROOT . '/views/inc/footer.php'; ?>

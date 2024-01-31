@@ -1,4 +1,4 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<?php require_once APPROOT . '/views/inc/header.php'; ?>
 <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/style.css">
 
 <div class="main">
@@ -86,8 +86,9 @@
     margin-bottom: 35px;
     cursor: pointer;
   }
-  .privacy-div input:checked{
-    
+  .privacy-div #checkbox{
+    outline: none;
+    border: none;
   }
 
   .privacy-logo {
